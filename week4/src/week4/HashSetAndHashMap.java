@@ -17,10 +17,16 @@ public class HashSetAndHashMap {
 
 		furnitureInMyBedroom.add("Couch");
 		furnitureInMyBedroom.add("Loft Bed");
-		furnitureInMyBedroom.add("Selving Unit");
+		furnitureInMyBedroom.add("Shelving Unit");
 		furnitureInMyBedroom.add("Gaming Desk");
 		furnitureInMyBedroom.add("Computer Desk");
 		
+		
+		//for (String furniture : furnitureInMyBedroom) {
+		//	System.out.println(furniture)
+		//}
+		furnitureInMyBedroom.forEach(System.out::println);
+
 	}
 	public static void hashMap() {
 		Map<String, String> processorsInMyBedroom = new HashMap<String, String>();
